@@ -1,11 +1,40 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+ 
+<html lang="es">
+ 
 <head>
-<meta charset="utf-8">
-<title>Documento sin título</title>
-</head>
+<title>Prueba de HTML5</title>
+<meta charset="utf-8" />
+<style type="text/css" id="cont_estilo"  ></style>
 
+<link rel="stylesheet"  href="style.css"  type="text/css"/>
+<script src="ajax.js" type="text/javascript" ></script>
+<script type="text/javascript">
+function color(){
+	est1=new ObjetoAjax();
+   est1.pedirTexto("style2.css","cont_estilo");
+   document.getElementById("espacio2").innerHTML="me has colocado un color rojo";
+	}
+</script>
+</head>
+ 
 <body>
-Hola mundo
+    <div id="header" class="header">
+       <h1 >Mi sitio web</h1>
+       <p>&nbsp;</p>
+    </div>
+    <div id="contenedor" class="contenedor">
+    <div id="espacio1" class="espacio1">
+
+      <P><input type="button" onclick="color()" value="pulsa aqui para cambiar el color de lado derecho"></input></P>
+    </div>
+    <div id="espacio2" class="espacio2"><P>gsdfgsdfgdfgsdfgdf fgfdtrtgtr grtgertgetrgtrgrtgtgrtgertgrtgdfgdtrg </P>
+    <p id="imagen"></p></div>
+	</div>
+    
+    <div id="footer" class="footer">
+    <p style="padding-left: 30px;"></span>
+<span style="color: #333399;"> Creado por Erick Carrillo</span></p>
+    </div>
 </body>
 </html>

@@ -1,6 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-
 h1 {
     color: red;
     font-weight: bold;
@@ -44,7 +43,9 @@ height:auto;
 border:solid black 2px;
 margin-right:50px;
 }
+
 .espacio2{
+	background-color:#FC6163;
 	text-align:center;
 	margin:20px 0 0 80px;
 width:40%;
@@ -54,3 +55,4 @@ height:auto;
 border:solid black 2px;
 
 }
+
