@@ -5,9 +5,11 @@
 <head>
 <title>Prueba de HTML5</title>
 <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <style type="text/css" id="cont_estilo"  ></style>
-
-<link rel="stylesheet"  href="style.css"  type="text/css"/>
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/skeleton.css">
+<link rel="stylesheet"  href="css/style.css"  type="text/css"/>
 <script src="ajax.js" type="text/javascript" ></script>
 <script type="text/javascript">
 function color(){
@@ -26,15 +28,16 @@ function color(){
     <div id="contenedor" class="contenedor">
     <div id="espacio1" class="espacio1">
 
-      <P><input type="button" onclick="color()" value="pulsa aqui para cambiar el color de lado derecho"></input></P>
+      <p><a href="#" onclick="color()">pulsa aqui para cambiar el color de lado derecho</a>
+      <!--<input type="button" onclick="color()" value="pulsa aqui para cambiar el color de lado derecho"></input>--></p>
     </div>
-    <div id="espacio2" class="espacio2"><P>gsdfgsdfgdfgsdfgdf fgfdtrtgtr grtgertgetrgtrgrtgtgrtgertgrtgdfgdtrg </P>
+    <div id="espacio2" class="espacio2"><p>gsdfgsdfgdfgsdfgdf fgfdtrtgtr grtgertgetrgtrgrtgtg rtgertgrtgdfgdtrg </p>
     <p id="imagen"></p></div>
 	</div>
     
     <div id="footer" class="footer">
-    <p style="padding-left: 30px;"></span>
-<span style="color: #333399;"> Creado por Erick Carrillo</span></p>
+    <p style="padding-left: 30px;">
+<span> Creado por Erick Carrillo</span></p>
     </div>
 </body>
 </html>
